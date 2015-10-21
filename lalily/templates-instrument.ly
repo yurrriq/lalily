@@ -253,7 +253,7 @@
    (call-template (create-template-path #f '(..)) parser location piece
      (assoc-set-all! options `((name . "bass")
                                (transposition  . ,(ly:make-pitch -1 0 0))
-                               (midi-instrument . "bass guitar")
+                               (midi-instrument . "electric bass (finger)")
                                (input-concert-pitch . #f)
                                (output-concert-pitch . #f)
                                (clef . "bass")))))
